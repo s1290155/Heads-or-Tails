@@ -6,6 +6,11 @@ int main()
 {
   srand((unsigned int) time(NULL));
   int cnt1=0, cnt2=0;
+  char n[10];
+
+  printf("Who are you?\n>");
+  scanf("%s", n);
+  printf("Hello, %s!\n", n);
   
   printf("Tossing a coin...\n");
 
